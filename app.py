@@ -203,7 +203,7 @@ def save_mcq_to_db(section, topic, generated_text):
 
 # --- MAIN INTERFACE HEADER ---
 st.title("🌍 UPSC Geography MCQ Generator")
-st.caption("Powered by Groq | High-Yield UPSC Prelims Standard MCQs")
+st.caption("Created by Aakash Darji")
 
 # API Key handling
 groq_api_key = st.secrets.get("GROQ_API_KEY", "")
